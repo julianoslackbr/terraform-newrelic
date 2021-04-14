@@ -1,6 +1,6 @@
 resource "newrelic_nrql_alert_condition" "this" {
   
-  policy_id                     = var.nr_policy
+  policy_id                    = var.nr_policy
   type                         = var.condiction_type
   name                         = var.name
   description                  = var.description
